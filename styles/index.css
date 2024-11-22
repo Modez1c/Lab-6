@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header > h1 {
+    align-self: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h2, h3 {
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
